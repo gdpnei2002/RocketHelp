@@ -1,9 +1,9 @@
-import { VStack } from 'native-base';
+import { Button as ButtonNativeBase, IButtonProps, Heading } from 'native-base';
 
 export function Button() {
   return (
-    <VStack>
-
-    </VStack>
+    <ButtonNativeBase>
+      <Heading>Entrar</Heading>
+    </ButtonNativeBase>
   );
 }

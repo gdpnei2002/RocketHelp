@@ -1,5 +1,6 @@
 import { VStack, Heading, Icon, useTheme } from "native-base";
 import { Input } from "../components/Input";
+import { Button } from "../components/Button";
 import Logo from "../assets/logo_primary.svg";
 import { Envelope, Key } from "phosphor-react-native"
 
@@ -25,6 +26,7 @@ export function SignIn() {
                 secureTextEntry
             />
 
+            <Button />
         </VStack>
    );
 }
