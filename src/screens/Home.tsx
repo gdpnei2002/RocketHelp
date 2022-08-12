@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { ChatTeardropText} from "phosphor-react-native"
 
 
-import { Filter } from '../components/filter';
+import { Filter } from '../components/Filter';
 import { Order, OrderProps } from '../components/Order';
 import { Button } from '../components/Button';
 
