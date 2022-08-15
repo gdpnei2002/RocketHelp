@@ -12,12 +12,7 @@ import { Button } from '../components/Button';
 export function Home() {
 
     const [statusSelected, setStatusSelected] = useState <'open' | 'closed'>('open')
-    const [orders, setOrders] = useState<OrderProps[]>([
-        {
-            id: "123",
-            patrimony: "123456"
-        }
-    ]);
+    const [orders, setOrders] = useState<OrderProps[]>([]);
 
     const navigation = useNavigation();
     const { colors } =useTheme();
@@ -89,7 +84,7 @@ export function Home() {
                         </Center>
                     )}
                     />
-                <Button title="nova solicitação" onPress={handleNewOrder}/>
+                <Button title="Nova solicitação" onPress={handleNewOrder}/>
             </VStack>
         </VStack>
     );
